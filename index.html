@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="프로덕트 디자이너 조성희의 포트폴리오입니다.">
+  <meta name="theme-color" content="#141414">
+  <title>JOSUNGHEE'S PORTFOLIO</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700&display=swap"
+  >
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <script src="./assets/js/main.js" defer></script>
+</head>
+<body>
+  <nav id="main-nav" aria-label="주요 메뉴">
+    <a href="#hero" class="logo">JOSUNGHEE'S PORTFOLIO</a>
+    <ul>
+      <li><a href="#project">PROJECT</a></li>
+      <li><a href="#about">ABOUT ME</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    <button
+      class="hamburger"
+      id="hamburger"
+      type="button"
+      aria-label="메뉴 열기"
+      aria-controls="mobile-menu"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <div
+    class="mobile-menu"
+    id="mobile-menu"
+    role="dialog"
+    aria-label="모바일 메뉴"
+    aria-modal="true"
+    aria-hidden="true"
+  >
+    <button class="close-btn" id="close-menu" type="button" aria-label="메뉴 닫기">✕</button>
+    <a href="#project" class="menu-link">PROJECT</a>
+    <a href="#about" class="menu-link">ABOUT ME</a>
+    <a href="#contact" class="menu-link">CONTACT</a>
+  </div>
+
+  <main>
+    <section id="hero" aria-labelledby="hero-title">
+      <h1 class="hero-title fade-up" id="hero-title">JOSUNGHEE IS<br>PORTFOLIO</h1>
+      <div class="scroll-hint" aria-hidden="true">Scroll <span class="arrow">↓</span></div>
+    </section>
+
+    <section id="project" aria-labelledby="project-title">
+      <header class="project-header fade-up">
+        <h2 id="project-title">PROJECT</h2>
+        <div class="line" aria-hidden="true"></div>
+      </header>
+
+      <article class="project-card fade-up">
+        <div class="project-inner">
+          <div class="project-info">
+            <h3>Project Name</h3>
+            <div class="project-meta">
+              <span class="date">0000.00.00 - 0000.00.00 (-개월)</span>
+              <p><strong>기여도</strong> : 디자인 -%, 기획 -%</p>
+              <p><strong>인원</strong> : -명</p>
+            </div>
+            <div class="project-desc">
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla aliquet nisi sed hendrerit. Nullam dapibus iaculis interdum.</p>
+            </div>
+            <a href="#" class="more-link">More view →</a>
+          </div>
+          <div class="project-image" aria-hidden="true"></div>
+        </div>
+      </article>
+
+      <article class="project-card fade-up">
+        <div class="project-inner">
+          <div class="project-info">
+            <h3>Project Name</h3>
+            <div class="project-meta">
+              <span class="date">0000.00.00 - 0000.00.00 (-개월)</span>
+              <p><strong>기여도</strong> : 디자인 -%, 기획 -%</p>
+              <p><strong>인원</strong> : -명</p>
+            </div>
+            <div class="project-desc">
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla aliquet nisi sed hendrerit.</p>
+            </div>
+            <a href="#" class="more-link">More view →</a>
+          </div>
+          <div class="project-image" aria-hidden="true"></div>
+        </div>
+      </article>
+
+      <article class="project-card fade-up">
+        <div class="project-inner">
+          <div class="project-info">
+            <h3>Project Name</h3>
+            <div class="project-meta">
+              <span class="date">0000.00.00 - 0000.00.00 (-개월)</span>
+              <p><strong>기여도</strong> : 디자인 -%, 기획 -%</p>
+              <p><strong>인원</strong> : -명</p>
+            </div>
+            <div class="project-desc">
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dapibus iaculis interdum.</p>
+            </div>
+            <a href="#" class="more-link">More view →</a>
+          </div>
+          <div class="project-image" aria-hidden="true"></div>
+        </div>
+      </article>
+
+      <div class="more-project-wrap fade-up">
+        <a href="#" class="btn-outline">More Project ↗</a>
+      </div>
+    </section>
+
+    <section id="about" aria-labelledby="about-title">
+      <h2 class="fade-up" id="about-title">ABOUT ME</h2>
+      <div class="about-top fade-up">
+        <div class="about-photo" aria-hidden="true"></div>
+        <div class="about-text">
+          <h3>Jo Sunghee</h3>
+          <p class="subtitle">안녕하세요! 프로덕트 디자이너 조성희입니다.</p>
+          <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+          <p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" by Cicero, written in 45 BC. Duis fringilla aliquet nisi sed hendrerit.</p>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <a href="#" class="more-link">More view →</a>
+        </div>
+      </div>
+
+      <div class="about-bottom fade-up">
+        <div>
+          <p class="about-section-title">EDUCATION</p>
+          <div class="edu-item">
+            <span class="period">0000.00 - 0000.00</span>
+            <span>Lorem Ipsum</span>
+          </div>
+          <div class="edu-item">
+            <span class="period">0000.00 - 0000.00</span>
+            <span>Lorem Ipsum</span>
+          </div>
+        </div>
+        <div>
+          <p class="about-section-title">SKILLS</p>
+          <div class="skills-tags">
+            <span class="skill-tag">Figma</span>
+            <span class="skill-tag">Photoshop</span>
+            <span class="skill-tag">Illustrator</span>
+            <span class="skill-tag">Adobe XD</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-email">
+      <p class="email fade-up" id="contact-email">shee.jo.design@gmail.com</p>
+      <a href="mailto:shee.jo.design@gmail.com" class="btn-outline btn-outline-white fade-up">Send Mail ✉</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>JOSUNGHEE · PORTFOLIO © 2026</p>
+  </footer>
+</body>
+</html>
